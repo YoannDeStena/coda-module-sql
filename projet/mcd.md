@@ -21,6 +21,6 @@ erDiagram
         int quantité
     }
 
-    Quartier ||--|| Établissement : "1..1 possède"
-    Établissement ||--|| Bière : "1..N possède"
-    Bière ||--|| Prix : "N..1 possède"
+    Quartier ||--|| Établissement : "0..N possède"
+    Établissement ||--|| Bière : "0..N possède"
+    Bière ||--|| Prix : "1..1 possède"
