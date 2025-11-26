@@ -1,0 +1,1 @@
+Un trop gros manque d'exercices et de pratique pour comprendre les concepts, dû au peu de temps alloué au cours. Il faudrait quelques jours en plus.
