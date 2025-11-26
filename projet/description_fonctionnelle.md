@@ -32,4 +32,4 @@ Prix:
 
 # Règles
 
-Chaque établissement a différentes bières avec des prix différents. Même une bière du même nom et type existant dans plusieurs établissements peut avoir un prix différent.
+Chaque quartier peut avoir un nombre indéfini d'établissements qui ont différentes bières avec des prix différents. Même une bière du même nom et type existant dans plusieurs établissements peut avoir un prix différent.

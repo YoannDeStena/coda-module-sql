@@ -1,1 +1,2 @@
 Un trop gros manque d'exercices et de pratique pour comprendre les concepts, dû au peu de temps alloué au cours. Il faudrait quelques jours en plus.
+Le projet devrait aussi pouvoir être fait en cours pour une meilleure communication, éviter des problèmes personnels de temps et encourager la motivation grâce à un temps consacré à ce travail.
