@@ -51,15 +51,21 @@ DECLARE
     i INTEGER;
 BEGIN
     FOR i IN 1..150 LOOP
-        INSERT INTO bar.prix (quantite) VALUES (FLOOR(random()*(10-5+1)+5));
+        --On saisit une valeur aléatoire pour ne pas à avoir à insérer 150 prix manuellement.
+        INSERT INTO bar.prix (quantite) VALUES (FLOOR(random()*(10-5+1)+5)); -
     END LOOP;
 END $$;
+
+-- =========================================
+-- Données pour Bières
+-- =========================================
 
 DO $$
 DECLARE
     i INTEGER;
 BEGIN
     FOR i IN 1..40 LOOP
+        --On évite de saisir des bières manuellement.
         INSERT INTO bar.biere (nom, genre, id_etablissement, id_prix) VALUES 
             ('Bière' || i,
             ('Genre' || i),
